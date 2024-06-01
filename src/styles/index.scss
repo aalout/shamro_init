@@ -1,0 +1,12 @@
+@import '~modern-normalize/modern-normalize.css';
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}

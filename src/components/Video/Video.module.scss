@@ -1,0 +1,34 @@
+.con {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.textblock {
+    max-width: 467px;
+    align-items: center;
+
+    p {
+        font-family: "Rubik medium";
+        font-size: 22px;
+        color: rgba(212, 212, 212, 1);
+    }
+}
+
+.video {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube {
+    width: 100%;
+    height: 100%;
+}
+
+.video_main {
+    background-color: rgba(88, 106, 108, 1);
+}

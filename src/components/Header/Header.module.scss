@@ -1,0 +1,56 @@
+@import 'mixins';
+
+.header_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-top: 20px;
+    gap: 672px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.header_social {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    img {
+        padding-top: 3px;
+    }
+}
+
+.logotext {
+    font-family: "Jost";
+    font-size: 20px;
+    color: rgba(212, 212, 212, 1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    transition: text-shadow 0.3s ease;
+
+    &:hover {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.navtext,
+.navtext1 {
+    font-family: "Jost";
+    font-size: 18px;
+    color: rgba(212, 212, 212, 1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    transition: text-shadow 0.3s ease;
+
+    &:hover {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(30, 63, 68, 1);
+}

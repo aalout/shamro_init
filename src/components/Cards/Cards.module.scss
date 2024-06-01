@@ -1,0 +1,111 @@
+.cards {
+    background-color: rgba(88, 106, 108, 1);
+    justify-content: center;
+
+    h2 {
+        font-family: "Rubik bold";
+        font-size: 40px;
+        color: rgba(212, 212, 212, 1);
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        padding-top: 150px;
+    }
+}
+
+.cards_flex {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.cards_img1,
+.cards_img2,
+.cards_img3 {
+    overflow: hidden;
+    border-radius: 12px;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+}
+
+.card_item1 {
+    width: 482px;
+    height: 482px;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 12px;
+    position: relative;
+}
+
+.card_item2 {
+    width: 482px;
+    height: 482px;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 12px;
+    position: relative;
+}
+
+.card_itemm {
+    width: 482px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.cards_content1,
+.cards_content2,
+.cards_content3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 12px;
+    font-family: "Rubik medium";
+    font-size: 22px;
+    color: rgba(193, 193, 193, 1);
+    text-align: center;
+}
+
+.cards_content1 p,
+.cards_content2 p,
+.cards_content3 p {
+    margin: 0;
+    padding: 15px;
+}
+
+.card_item1:hover .cards_img1 {
+    opacity: 0;
+}
+
+.card_item1:hover .cards_content1 {
+    display: flex;
+    opacity: 1;
+}
+
+.card_item2:hover .cards_img2 {
+    opacity: 0;
+}
+
+.card_item2:hover .cards_content2 {
+    display: flex;
+    opacity: 1;
+}
+
+.card_itemm:hover .cards_img3 {
+    opacity: 0;
+}
+
+.card_itemm:hover .cards_content3 {
+    display: flex;
+    opacity: 1;
+}

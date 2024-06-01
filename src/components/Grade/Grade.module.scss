@@ -1,0 +1,62 @@
+.grade {
+    background-color: rgba(88, 106, 108, 1);
+}
+
+.grade_con {
+    padding-top: 80px;
+    margin: 0 auto;
+    max-width: 954px;
+    
+    h2 {
+        font-family: "Rubik bold";
+        font-size: 40px;
+        color: rgba(212, 212, 212, 1);
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+}
+
+.grade_list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.grade_item {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 0;
+    border: 1px dashed rgba(106, 125, 128, 0.5);
+    border-radius: 30px;
+}
+
+.grade_text {
+    max-width: 700px;
+    font-family: "Rubik medium";
+    font-size: 22px;
+    color: rgba(193, 193, 193, 1);
+    text-align: left;
+    padding: 20px;
+}
+
+.grade_date {
+    margin: 0 20px;
+    height: 73px;
+    width: 224px;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 30px;
+
+    p {
+        font-family: "Rubik bold";
+        font-size: 40px;
+        color: rgba(193, 193, 193, 1);
+        text-align: center;
+        padding: 15px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+}
