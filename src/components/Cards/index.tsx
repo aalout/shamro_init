@@ -9,8 +9,8 @@ export default function Cards() {
   return (
     <div className={styles.cards}>
         <h2>Услуги</h2>
-        <div className={styles.cards_flex}>
-            <Link href="/"><div className={styles.card_item1}>
+        <div id='cards' className={styles.cards_flex}>
+            <Link href="/individual"><div className={styles.card_item1}>
                 <div className={styles.cards_img1}>
                     <Image alt='card' src="/assets/images/individual.jpg" width={482} height={482}/>
                 </div>
@@ -18,7 +18,7 @@ export default function Cards() {
                     <p>Конечная цель процесса для Вас – научиться самостоятельно адаптироваться к новым обстоятельствам, даже если они критические (утрата, развод, различные кризисы).</p>
                 </div>
             </div></Link>
-            <Link href="/"><div className={styles.card_item2}>
+            <Link href="/strat_session"><div className={styles.card_item2}>
                 <div className={styles.cards_img2}>
                     <Image alt='card' src="/assets/images/forps.jpg" width={482} height={482}/>
                 </div>
@@ -27,7 +27,7 @@ export default function Cards() {
                 </div>
             </div></Link>
        </div>
-       <Link href="/"><div className={styles.card_itemm}>
+       <Link href="https://среда.space/schedule" target='_blank'><div className={styles.card_itemm}>
             <div className={styles.cards_img3}>
                 <Image alt='card' src="/assets/images/forps.jpg" width={482} height={482}/>
             </div>

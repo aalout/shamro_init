@@ -81,3 +81,45 @@
   transform: translateY(0);
   opacity: 1;
 }
+
+@media (max-width: 1850px) {
+    .banner_flex {
+        gap: 0;
+    }
+
+    .banner_text {
+        padding-top: 100px;
+    }
+
+    .banner_sstext {
+        display: contents;
+        gap: 0;
+
+        p {
+            height: 100px;
+            background-image: none;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .banner_img {
+        display: none;
+    }
+
+    .banner_sstext {
+        display: flex;
+        gap: 20px;
+
+        p {
+            background-image: url(../../../public/assets/images/stext.svg);
+            height: 300px;
+        }
+    }
+
+    .banner_div {
+        height: 600px;
+        background-position: 0 600px;
+        background-size: cover;
+    }
+}

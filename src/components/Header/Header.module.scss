@@ -6,6 +6,7 @@
     justify-content: center;
     height: 60px;
     padding-top: 20px;
+    padding-bottom: 20px;
     gap: 672px;
 }
 
@@ -19,6 +20,8 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    cursor: pointer;
+    position: relative;
 
     img {
         padding-top: 3px;
@@ -53,4 +56,54 @@
 .header {
     width: 100%;
     background-color: rgba(30, 63, 68, 1);
+}
+
+.socialMenu {
+    position: absolute;
+    top: 15px;
+    right: 22%;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(212, 212, 212, 0);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 2300px) {
+    .socialMenu {
+        right: 10%;
+    }
+}
+
+@media (max-width: 1850px) {
+    .socialMenu {
+        right: 5%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .socialMenu {
+        right: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header_div {
+        gap: 300px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header_div {
+        gap: 150px;
+    }
 }
