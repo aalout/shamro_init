@@ -36,3 +36,32 @@
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
 }
+
+@media (max-width: 1000px) {
+    .footer_con {
+        gap: 100px;
+    }
+
+    .footer_n {
+        display: flex;
+        gap: 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer_con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../../../public/assets/images/footer.png);
+        background-size: cover;
+        height: 220px;
+        gap: 40px;
+    }
+
+    .footer_n {
+        gap: 15px;
+    }
+
+}

@@ -9,7 +9,7 @@ export default function Individual() {
         <div>
             <div className={styles.main_con}>
                 <div className={styles.flex}>
-                    <div className={styles.image}><Image alt='individual' src="/assets/images/individual.jpg" height={482} width={482}/></div>
+                    <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/individual.jpg" height={482} width={482}/></div>
                     <div className={styles.text}>
                         <h2>Индивидуальная консультация</h2>
                         <p>Задача индивидуального консультирования – помочь в осознании своих потребностей, научить прислушиваться к себе, разобраться, что именно происходит в вашей жизни и как в этом процессе участвуете лично вы.

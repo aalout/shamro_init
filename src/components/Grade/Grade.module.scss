@@ -72,3 +72,46 @@
         width: 150px;
     }
 }
+
+@media (max-width: 800px) {
+    .grade_text {
+        max-width: 700px;
+        font-family: "Rubik medium";
+        font-size: 16px;
+        color: rgba(193, 193, 193, 1);
+        text-align: left;
+        padding: 20px;
+    }
+    
+    .grade_date {
+        margin: 0 20px;
+        height: 53px;
+        width: 100px;
+        background-color: rgba(30, 63, 68, 1);
+        border-radius: 30px;
+    
+        p {
+            font-family: "Rubik bold";
+            font-size: 25px;
+            color: rgba(193, 193, 193, 1);
+            text-align: center;
+            padding: 15px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    .grade_con {
+        padding-top: 80px;
+        margin: 0 auto;
+        max-width: 954px;
+        
+        h2 {
+            font-family: "Rubik bold";
+            font-size: 35px;
+            color: rgba(212, 212, 212, 1);
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+    }
+}

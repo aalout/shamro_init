@@ -31,3 +31,40 @@
         color: rgba(193, 193, 193, 1);
     }
 }
+
+@media (max-width: 1000px) {
+    .flex {
+        flex-direction: column;
+    }
+    .text {
+        max-width: 800px;
+        padding: 20px;
+    
+        h2 {
+            font-family: "Rubik bold";
+            font-size: 35px;
+            color: rgba(212, 212, 212, 1);
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+    
+        p {
+            padding-top: 20px;
+            max-width: 700px;
+            font-family: "Rubik medium";
+            font-size: 18px;
+            color: rgba(193, 193, 193, 1);
+        }
+    }
+
+    .image {
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+    }
+
+    .imggg {
+        height: 300px;
+        width: 300px;
+    }
+}

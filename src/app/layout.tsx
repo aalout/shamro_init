@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import Header_mobile from '@/components/Header_mobile';
 
 const alegreya = Alegreya({
     subsets: ['cyrillic'],
@@ -35,6 +36,7 @@ export default function RootLayout({
         <html lang="ru" className={`${alegreya.variable} ${roboto.variable}`}>
             <body className="wrapper">
                     <Header />
+                    <Header_mobile/>
                     <main>{children}</main>
                     <Footer />
             </body>
