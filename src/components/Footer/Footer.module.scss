@@ -13,6 +13,21 @@
     gap: 55px;
 }
 
+.commerce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(30, 63, 68, 1);
+    padding: 15px;
+
+    p {
+        font-family: "Jost";
+        font-size: 14px;
+        color: rgba(212, 212, 212, 1);
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
 .logotext {
     font-family: "Jost";
     font-size: 20px;
