@@ -17,8 +17,8 @@ export default function Header() {
             <div className={styles.header_div}>
                 <Link href="/"><h2 className={styles.logotext}>АНДРЕЙ ШАМРО</h2></Link>
                 <div className={styles.header_nav}>
-                    <Link href="#grade"><p className={styles.navtext}>Образование</p></Link>
-                    <Link href="#cards"><p className={styles.navtext1}>Услуги</p></Link>
+                    <a href="#grade"><p className={styles.navtext}>Образование</p></a>
+                    <a href="#cards"><p className={styles.navtext1}>Услуги</p></a>
                     <div className={styles.header_social} onClick={handleSocialMenuToggle}>
                         <p className={styles.navtext}>Контакты</p>
                         <Image alt='arrow' src="/assets/images/arrow.svg" width={8} height={16}></Image>

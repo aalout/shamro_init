@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../public/assets/images/footer.png);
-    background-size: cover;
+    background-color: rgba(30, 63, 68, 1);
+    border-top: 14px solid rgba(57, 53, 47, 1);
     height: 126px;
     gap: 330px;
 }
@@ -54,14 +54,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../../../public/assets/images/footer.png);
-        background-size: cover;
-        height: 220px;
+        height: 620px;
         gap: 40px;
     }
 
     .footer_n {
         gap: 15px;
+        display: contents;
     }
 
 }

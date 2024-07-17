@@ -22,8 +22,8 @@ export default function Grade() {
   ];
 
   return (
-    <div className={styles.grade}>
-        <div id='grade' className={styles.grade_con}>
+    <div id='grade' className={styles.grade}>
+        <div className={styles.grade_con}>
         <h2>Образование</h2>
             <ul className={styles.grade_list}>
               {educationData.map((item, index) => (

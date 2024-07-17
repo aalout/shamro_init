@@ -13,9 +13,11 @@ export default function Footer() {
 
           <div className={styles.footer_n}>
             <Link href="https://vk.com/andreyshamro" target='_blank'><p className={styles.footer_nav}>ВКонтакте</p></Link>
-            <Link href="https://t.me/andrey_shamro" target='_blank'><p className={styles.footer_nav}>Telegram</p></Link>
+            <Link href="https://t.me/andrey_shamro" target='_blank'><p className={styles.footer_nav}>Telegram для связи</p></Link>
+            <Link href="https://t.me/sreda_svoim " target='_blank'><p className={styles.footer_nav}>Telegram для своих</p></Link>
+            <Link href="https://t.me/andrey_shamro" target='_blank'><p className={styles.footer_nav}>Telegram для психологов</p></Link>
             <Link href="https://www.youtube.com/@andreyshamro" target='_blank'><p className={styles.footer_nav}>Youtube</p></Link>
-            <Link href="https://среда.space/" target='_blank'><p className={styles.footer_nav}>Платформа</p></Link>
+            <Link href="https://среда.space/" target='_blank'><p className={styles.footer_nav}>проект СРЕДА</p></Link>
           </div>
         </div>
     </footer>

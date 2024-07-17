@@ -18,8 +18,8 @@ export default function Header_mobile() {
         </button>
         <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
           
-        <Link href="#grade"><p className={styles.navtext}>Образование</p></Link>
-        <Link href="#cards"><p className={styles.navtext1}>Услуги</p></Link>
+        <a href="#grade"><p className={styles.navtext}>Образование</p></a>
+        <a href="#cards"><p className={styles.navtext1}>Услуги</p></a>
         <div className={styles.social}><Link href="https://t.me/andrey_shamro" target='_blank' className={styles.socialLink}>
             <Image alt='telegram' src="/assets/images/tg.svg" width={39} height={33}></Image>
         </Link>
