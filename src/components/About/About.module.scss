@@ -1,0 +1,47 @@
+.body {
+    padding: 10px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(88, 106, 108, 1);
+
+    p {
+        font-family: "Rubik medium";
+        font-size: 20px;
+        color: rgba(212, 212, 212, 1);
+        max-width: 1200px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-family: "Rubik bold";
+        font-size: 40px;
+        color: rgba(212, 212, 212, 1);
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .body {
+        text-align: center;
+
+        h1 {
+            font-family: "Rubik bold";
+            font-size: 25px;
+            color: rgba(193, 193, 193, 1);
+            text-align: center;
+            padding: 15px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+            letter-spacing: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
