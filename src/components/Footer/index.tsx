@@ -23,6 +23,8 @@ export default function Footer() {
         <div className={styles.commerce}>
           <p>ИП Шамро Андрей Юрьевич 
           ИНН 231509891349</p>
+          <Link href="/privacy_policy"><p>Согласие на обработку персональных данных</p></Link>
+          <Link href="/public_offer"><p>Договор публичной оферты</p></Link>
         </div>
     </footer>
   );
