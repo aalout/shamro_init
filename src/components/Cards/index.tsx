@@ -13,7 +13,7 @@ export default function Cards() {
         </p>
         <div className={styles.download_links}>
             <div className={styles.link}><Image src="/assets/pdf/download.svg" alt='download' width={34} height={33}/><a href="/assets/pdf/online.pdf" download="online.pdf">Инструкция для онлайн групп (PDF)</a></div>
-            <div className={styles.link}><Image src="/assets/pdf/download.svg" alt='download' width={34} height={33}/><a href="/path/to/session.pdf" download="session.pdf">Инструкция для индивидуальных сессий (PDF)</a></div>
+            <div className={styles.link}><Image src="/assets/pdf/download.svg" alt='download' width={34} height={33}/><a href="/assets/pdf/session.pdf" download="session.pdf">Инструкция для индивидуальных сессий (PDF)</a></div>
         </div>
         <div className={styles.cards_flex}>
             <Link href="/individual"><div className={styles.card_item1}>
