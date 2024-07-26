@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Individual.module.scss';
+import RobokassaPay from '../RobokassaPay';
 
 export default function Individual() {
     return (
@@ -23,6 +24,9 @@ export default function Individual() {
 
 «Спасибо, дальше я сам/сама» - лучшее завершение нашей с Вами работы.<br/>
 Стоимость 6000р за встречу (60 минут).</p>
+<div className={styles.payment}>
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=B_OYETL9SUSMVru77KMCUw"  />
+        </div>
                     </div>
                 </div>
             </div>

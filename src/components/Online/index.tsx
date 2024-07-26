@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from "./Online.module.scss";
+import RobokassaPay from '../RobokassaPay';
 
 export default function Online() {
     return (
@@ -26,6 +27,9 @@ export default function Online() {
 Стоимость – 3000р за встречу (2 часа)<br/>
 Пропуски тоже оплачиваются, так как будет доступ к записи очередной встречи.
 </p>
+<div className={styles.payment}>
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=acMp0JOIBEi970n2agT0cw"  />
+        </div>
                     </div>
                 </div>
             </div>

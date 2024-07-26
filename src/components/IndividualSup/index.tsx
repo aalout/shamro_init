@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './IndividualSup.module.scss';
+import RobokassaPay from '../RobokassaPay';
 
 export default function IndividualSup() {
     return (
@@ -18,6 +19,9 @@ export default function IndividualSup() {
 
 Длительность 60 минут. Стоимость 6000р 
 </p>
+<div className={styles.payment}>
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=a-eg4STnREyfu8qZHpUmjw"  />
+        </div>
                     </div>
                 </div>
             </div>

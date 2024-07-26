@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './GroupSuper.module.scss';
+import RobokassaPay from '../RobokassaPay';
 
 export default function GroupSuper() {
     return (
@@ -35,6 +36,9 @@ export default function GroupSuper() {
 Старт сентябрь 2024г. Встречаемся еженедельно<br/>
 Стоимость 2500р за встречу (2 часа). 
 </p>
+<div className={styles.payment}>
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=e4LSOy3zh02zDjR8OHGmxA"  />
+        </div>
                     </div>
                 </div>
             </div>
