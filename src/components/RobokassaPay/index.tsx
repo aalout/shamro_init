@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export default function RobokassaPay({ src }) {
+export default function RobokassaPay({ src }: { src: string }) {
   return (
     <div>
       <iframe

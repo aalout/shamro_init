@@ -1,7 +1,7 @@
 .cards {
     background-color: rgba(88, 106, 108, 1);
     justify-content: center;
-    height: 1400px;
+    height: 1800px;
     padding-top: 20px;
 
     h2 {
@@ -31,7 +31,9 @@
 
 .cards_img1,
 .cards_img2,
-.cards_img3 {
+.cards_img3,
+.cards_img4,
+.cards_img5 {
     overflow: hidden;
     border-radius: 12px;
     transition: opacity 0.5s ease-in-out;
@@ -62,9 +64,28 @@
     position: relative;
 }
 
+.card_item3 {
+    width: 376px;
+    height: 256px;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 12px;
+    position: relative;
+}
+
+.card_item4 {
+    width: 376px;
+    height: 256px;
+    background-color: rgba(30, 63, 68, 1);
+    border-radius: 12px;
+    position: relative;
+}
+
+
 .cards_content1,
 .cards_content2,
-.cards_content3 {
+.cards_content3,
+.cards_content4,
+.cards_content5 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -87,7 +108,9 @@
 
 .cards_content1 p,
 .cards_content2 p,
-.cards_content3 p {
+.cards_content3 p,
+.cards_content4 p,
+.cards_content5 p {
     margin: 0;
     padding: 15px;
 }
@@ -117,6 +140,24 @@
 .card_itemm:hover .cards_content3 {
     display: flex;
     opacity: 1;
+}
+
+.card_item3:hover .cards_content4 {
+    display: flex;
+    opacity: 1;
+}
+
+.card_item3:hover .cards_img4 {
+    opacity: 0;
+}
+
+.card_item4:hover .cards_content5 {
+    display: flex;
+    opacity: 1;
+}
+
+.card_item4:hover .cards_img5 {
+    opacity: 0;
 }
 
 @media (max-width: 1000px) {
@@ -209,6 +250,36 @@
         position: relative;
     }
 
+    .card_item3 {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 294px;
+        height: 200px;
+        background-color: rgba(30, 63, 68, 1);
+        border-radius: 12px;
+        position: relative;
+    }
+
+    .img4 {
+        width: 294px;
+        height: 200px;
+    }
+
+    .img5 {
+        width: 294px;
+        height: 200px;
+    }
+
+    .card_item4 {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 294px;
+        height: 200px;
+        background-color: rgba(30, 63, 68, 1);
+        border-radius: 12px;
+        position: relative;
+    }
+
     .img2 {
         width: 300px;
         height: 300px;
@@ -228,7 +299,7 @@
     }
 
     .cards {
-        height: 1700px;
+        height: 2100px;
     }
 
     .cards_flex {
