@@ -15,7 +15,7 @@ export default function LongGroup() {
                         <h2>Психологические онлайн-группы</h2>
                         <p>Онлайн группа пролонгированная (больше года) <br/> 2т.р. за встречу</p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=oPHSfaG_2kiq9ydd8obN0g"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=qeolp7VL-Eq2ILV5DI5M4A"  />
         </div>
                     </div>
                 </div>

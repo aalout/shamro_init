@@ -15,7 +15,7 @@ export default function ForBeginners() {
                         <h2>Супервизорские онлайн-группы</h2>
                         <p>Супервизорская группа для начинающих психологов <br/> 1.5 т.р за встречу</p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=tCjr_rsHqk6sTT40LGa5aA"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=Gq1TEUrRmUO88PyDrEdosw"  />
         </div>
                     </div>
                 </div>
