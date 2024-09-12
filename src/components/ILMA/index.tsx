@@ -25,13 +25,13 @@ export default function ILMA() {
               • Встречи в zoom еженедельно<br/>
               • Длительность 2 часа.<br/>
               <br/>
-              Стоимость 3000р за встречу (2 часа). <br/><br/>
+              Стоимость 2500р за встречу (2 часа). <br/><br/>
               Вы можете выбрать удобный для Вас день и время группы:<br/><br/>
               ⏰По вторникам, начало 03.09.2024 в 19:00 (мск);<br/><br/>
               ⏰По четвергам, начало 05.09.2024 в 19:00 (мск);
             </p>
             <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=L-N_mCoo8E6RvBYJ1tcgjA"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=dpsg4dpTdUGO54GhW3yNOw"  />
         </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function Strat() {
 «Стратегия без тактики — это самый медленный путь к победе. Тактика без стратегии — это просто суета перед поражением».
 Стоимость 10000р за встречу (2 часа)</p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=2reD-GrorE2Xtzb6jbuhmg"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=FozGOqfDaUGbC2_iw5LV6Q"  />
         </div>
                     </div>
                 </div>

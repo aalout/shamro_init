@@ -37,7 +37,7 @@ export default function GroupSuper() {
 Стоимость 2500р за встречу (2 часа). 
 </p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=e4LSOy3zh02zDjR8OHGmxA"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=kbFyYqrkvketLPdiUu-o1A"  />
         </div>
                     </div>
                 </div>
