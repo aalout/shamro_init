@@ -2,27 +2,15 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import YouTube from 'react-youtube';
 
 import styles from "./Video.module.scss"
 
 export default function Video() {
-    const opts = {
-      width: "100%",
-      height: "100%",
-      playerVars: {
-        autoplay: 0,
-      },
-    };
   return (
     <div className={styles.video_main}>
         <div className={styles.con}>
-        <div className={styles.video}>
-          <YouTube
-          className={styles.youtube}
-            videoId="wTD99oV1WqA"
-            opts={opts}
-              />
+        <div>
+        <iframe className={styles.video} width="720" height="405" src="https://rutube.ru/play/embed/da6e09faa0926c31813ea67d2de70fa3/" allow="clipboard-write; autoplay" allowFullScreen></iframe>
           </div>
           <div className={styles.textblock}>
             <p>Приветствую Вас! 
