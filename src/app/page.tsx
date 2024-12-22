@@ -6,6 +6,7 @@ import Video from "@/components/Video";
 import Link from "next/link";
 import Psycho from "@/components/Psycho";
 import About from "@/components/About";
+import { OnlineProject } from "@/components/OnlineProject";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Grade/>
       <Cards/>
       <Psycho />
+      <OnlineProject/>
     </div>
   );
 }
