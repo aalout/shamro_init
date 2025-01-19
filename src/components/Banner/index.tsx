@@ -54,6 +54,7 @@ export default function Banner() {
                   <p>самореализация <br/> и карьерный рост</p>
                   <p>сложности <br/> и конфликты в отношениях</p>
                   </div>
+                  <div className={styles.linkWrapper}>
                   <a
                    className={`${styles.link} ${isLinkVisible ? styles.linkVisible : ''}`}
                    onClick={(e) => {
@@ -66,6 +67,7 @@ export default function Banner() {
                    >
                     Мои услуги
                     </a>
+                    </div>
             </div>
             
 
