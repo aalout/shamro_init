@@ -18,7 +18,7 @@ export default function Connect() {
 Онлайн проект для тех, кто хотят быть счастливыми в отношениях. <br/><br/>
 Ведущие и авторы проекта психологи Андрей Шамро и Марина Шульга.<br/><br/>
 
-Стоимость – 1500р
+Новогоднее спецпредложение: 2 месяца участия за 1500р
 </p>
 <div className={styles.payment}>
           <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=_hfNqwZqNEOj_fg-R2PH7Q\"  />

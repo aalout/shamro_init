@@ -10,6 +10,7 @@ export default function Banner() {
   const [isNameVisible, setIsNameVisible] = useState(false);
   const [isStextVisible, setIsStextVisible] = useState(false);
   const [isSstextVisible, setIsSstextVisible] = useState(false);
+  const [isLinkVisible, setIsLinkVisible] = useState(false);
 
   useEffect(() => {
     const timeoutId1 = setTimeout(() => {
@@ -24,10 +25,15 @@ export default function Banner() {
       setIsSstextVisible(true);
     }, 800);
 
+    const timeoutId4 = setTimeout(() => {
+      setIsLinkVisible(true);
+    }, 1000);
+
     return () => {
       clearTimeout(timeoutId1);
       clearTimeout(timeoutId2);
       clearTimeout(timeoutId3);
+      clearTimeout(timeoutId4);
     };
   }, []);
 
@@ -48,6 +54,18 @@ export default function Banner() {
                   <p>самореализация <br/> и карьерный рост</p>
                   <p>сложности <br/> и конфликты в отношениях</p>
                   </div>
+                  <a
+                   className={`${styles.link} ${isLinkVisible ? styles.linkVisible : ''}`}
+                   onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.getElementById('cards');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                   >
+                    Мои услуги
+                    </a>
             </div>
             
 

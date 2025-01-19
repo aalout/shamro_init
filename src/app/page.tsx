@@ -14,10 +14,10 @@ export default function Home() {
       <Banner/>
       <About/>
       <Video/>
-      <Grade/>
       <Cards/>
-      <Psycho />
       <OnlineProject/>
+      <Psycho />
+      <Grade/>
     </div>
   );
 }
