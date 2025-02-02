@@ -14,8 +14,8 @@ export const OnlineProject: React.FC = () => {
             <Link href='/connect' className={styles.container}>
                 <div className={styles.hover}>
                     <p className={styles.text}>Он и Она: практическая психология Пути. 
-Онлайн проект для тех, кто хотят быть счастливыми в отношениях. 
-Ведущие и авторы проекта психологи Андрей Шамро и Марина Шульга.</p>
+                    Онлайн проект для тех, кто хотят быть счастливыми в отношениях. 
+                    Ведущие и авторы проекта психологи Андрей Шамро и Марина Шульга.</p>
                     <Image className={styles.arrow} src={Arrow} alt="arrow" width={30} height={30} />
                 </div>
             </Link>
