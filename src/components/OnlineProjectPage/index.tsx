@@ -9,12 +9,10 @@ import ConnectImg from '../OnlineProject/images/connect.png';
 import Arrow from './images/arrow.svg';
 
 export default function Connect() {
-    const [activeCards, setActiveCards] = useState([false, false]);
+    const [isActive, setIsActive] = useState(false);
 
-    const handleCardClick = (index: any) => {
-        const newActiveCards = [...activeCards];
-        newActiveCards[index] = !newActiveCards[index];
-        setActiveCards(newActiveCards);
+    const handleCardClick = () => {
+        setIsActive(!isActive);
     };
 
     return (
@@ -27,7 +25,7 @@ export default function Connect() {
                     <div className={styles.text}>
                         <h2>Онлайн проект &quot;Connect&quot;</h2>
                         <p>Он и Она: практическая психология Пути.<br />
-                            Онлайн проект для тех, кто хотят быть счастливыми в отношениях.<br />
+                            Онлайн проект для тех, кто хочет быть счастливыми в отношениях.<br />
                             Ведущие и авторы проекта психологи Андрей Шамро и Марина Шульга.<br /><br />
 
                             Зачем нужны отношения в современном мире, где выживание уже не является основным мотивом?<br />
@@ -42,25 +40,18 @@ export default function Connect() {
                             - Интерактивные встречи и живое общение с ведущими.<br /><br />
                         </p>
                         <div className={styles.cards}>
-                            {['Стать участником проекта - 2000р', 'Продление участия на месяц - 1000р'].map((text, index) => (
-                                <div
-                                    key={index}
-                                    className={`${styles.card} ${activeCards[index] ? styles.active : ''}`}
-                                    onClick={() => handleCardClick(index)}
-                                >
-                                    <p>{text}</p>
-                                    <Image className={styles.arrow} src={Arrow} alt='arrow' width={20} height={20} />
-                                    {activeCards[index] && (
-                                        <div className={`${styles.cardDetail} ${activeCards[index] ? styles.active : ''}`}>
-                                            {index === 0 ? (
-                                                <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=7GIgCysuN02AZsYvxYzqIw\" />
-                                            ) : (
-                                                <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=7GIgCysuN02AZsYvxYzqIw\"/>
-                                            )}
-                                        </div>
-                                    )}
-                                </div>
-                            ))}
+                            <div
+                                className={`${styles.card} ${isActive ? styles.active : ''}`}
+                                onClick={handleCardClick}
+                            >
+                                <p>Участие в проекте - 3000р</p>
+                                <Image className={styles.arrow} src={Arrow} alt='arrow' width={20} height={20} />
+                                {isActive && (
+                                    <div className={`${styles.cardDetail} ${isActive ? styles.active : ''}`}>
+                                        <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=hDuKOMN6b027wrVD8HKKaQ\" />
+                                    </div>
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>
