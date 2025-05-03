@@ -28,8 +28,17 @@
 .cards_flex {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
     padding-top: 50px;
+}
+
+.cards_flex2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 15px;
 }
 
 .cards_img1,
@@ -55,6 +64,7 @@
     background-color: rgba(30, 63, 68, 1);
     border-radius: 12px;
     position: relative;
+    overflow: hidden;
 }
 
 .card_itemm {
@@ -295,4 +305,43 @@
             transition: opacity 0.7s ease;
         }
     }
+}
+
+.special_offer_marquee {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 105%;
+  height: 60px;
+  overflow: hidden;
+  z-index: 2;
+  pointer-events: none;
+  background: rgba(30, 63, 68, 0.7);
+  display: flex;
+  align-items: center;
+  transform: rotate(2deg);
+}
+
+.marquee_inner {
+  display: flex;
+  width: max-content;
+  animation: marquee 12s linear infinite;
+}
+
+.marquee_inner span {
+  white-space: nowrap;
+  font-family: "Rubik bold";
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px #222;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.3%);
+  }
 }
