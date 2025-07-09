@@ -38,22 +38,33 @@ export default function Cards() {
        <Link href="/discount"><div className={styles.card_item2}>
                 <div className={styles.special_offer_marquee}>
                     <div className={styles.marquee_inner}>
-                        <span>Специальное предложение мая 2025г&nbsp;&nbsp;&nbsp;</span>
-                        <span>Специальное предложение мая 2025г&nbsp;&nbsp;&nbsp;</span>
-                        <span>Специальное предложение мая 2025г&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
                     </div>
                 </div>
                 <div className={styles.cards_img2}>
                     <Image className={styles.img2} alt='card' src="/assets/images/individual.jpg" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content2}>
-                    <p style={{textAlign: "left"}}>Пакет из 5 сессий со скидкой 30%<br/>
-Пакет из 10 сессий со скидкой 40%<br/><br/>
+                    <p style={{textAlign: "left"}}>Вы можете приобрести пакет из 5 сессий по сниженной стоимости<br/><br/>
 Запросы: <br/>
 • Про отношения.<br/>
 • Про самореализацию.<br/>
-• Разочарование/кризис.<br/><br/>
-Количество мест ограничено!
+• Разочарование/кризис.
                     </p>
                 </div>
             </div></Link>

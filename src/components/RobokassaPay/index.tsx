@@ -6,12 +6,12 @@ export default function RobokassaPay({ src }: { src: string }) {
   return (
     <div>
       <iframe
-        width="242"
-        height="55"
+        width="auto"
+        height="auto"
         style={{
           border: '0',
-          width: '242px',
-          height: '55px',
+          width: 'auto',
+          height: 'auto',
           overflow: 'hidden',
           backgroundColor: 'transparent',
         }}
