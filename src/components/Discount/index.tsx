@@ -37,7 +37,7 @@ export default function Discount() {
             <p style={{paddingBottom: "10px"}}>
 Пакет из 5 сессий (25 000 руб)
             </p>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=BkkhTo1Rakqhme2JzOf49Q\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=9yhohT5W40KMYRyKxmGL5g\"  />
         </div>
           </div>
         </div>

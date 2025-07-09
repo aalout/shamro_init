@@ -35,7 +35,7 @@ export default function Cards() {
             </div></Link>
        </div>
        <div className={styles.cards_flex2}> 
-       <Link href="/discount"><div className={styles.card_item2}>
+       <Link href="/session-pack"><div className={styles.card_item2}>
                 <div className={styles.special_offer_marquee}>
                     <div className={styles.marquee_inner}>
                         <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
