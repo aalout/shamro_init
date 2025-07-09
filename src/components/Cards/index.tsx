@@ -38,22 +38,22 @@ export default function Cards() {
        <Link href="/discount"><div className={styles.card_item2}>
                 <div className={styles.special_offer_marquee}>
                     <div className={styles.marquee_inner}>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
                     </div>
                 </div>
                 <div className={styles.cards_img2}>

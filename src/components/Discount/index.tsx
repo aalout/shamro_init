@@ -13,14 +13,14 @@ export default function Discount() {
           <div className={styles.image} style={{position: 'relative', overflow: 'hidden', height: 'fit-content'}}>
             <div className={cardsStyles.special_offer_marquee}>
               <div className={cardsStyles.marquee_inner}>
-              <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
-                        <span>Скидка&nbsp;&nbsp;&nbsp;</span>
+              <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
+                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
               </div>
             </div>
             <Image className={styles.imggg} alt='individual' src="/assets/images/individual.jpg" height={482} width={482}/>
