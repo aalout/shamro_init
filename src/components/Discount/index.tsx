@@ -26,8 +26,8 @@ export default function Discount() {
             <Image className={styles.imggg} alt='individual' src="/assets/images/individual.jpg" height={482} width={482}/>
           </div>
           <div className={styles.text}>
-            <h2>Пакет из 5 сессий по сниженной стоимости</h2>
-            <p>Пакет из 5 сессий по сниженной стоимости - 25 000 руб<br/><br/>
+            <h2>Пакет из 10 сессий по сниженной стоимости</h2>
+            <p>Пакет из 10 сессий по сниженной стоимости - 35 000 руб<br/><br/>
 Запросы: <br/>
 • Про отношения.<br/>
 • Про самореализацию.<br/>
@@ -35,9 +35,9 @@ export default function Discount() {
             </p>
             <div className={styles.payment}>
             <p style={{paddingBottom: "10px"}}>
-Пакет из 5 сессий (25 000 руб)
+            Пакет из 10 сессий (35 000 руб)
             </p>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=9yhohT5W40KMYRyKxmGL5g\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=SV4-bzvYyUiOHBs_BmDtCw\"  />
         </div>
           </div>
         </div>

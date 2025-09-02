@@ -60,7 +60,7 @@ export default function Cards() {
                     <Image className={styles.img2} alt='card' src="/assets/images/individual.jpg" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content2}>
-                    <p style={{textAlign: "left"}}>Вы можете приобрести пакет из 5 сессий по сниженной стоимости<br/><br/>
+                    <p style={{textAlign: "left"}}>Вы можете приобрести пакет из 10 сессий по сниженной стоимости<br/><br/>
 Запросы: <br/>
 • Про отношения.<br/>
 • Про самореализацию.<br/>
