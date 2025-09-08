@@ -34,41 +34,6 @@ export default function Cards() {
                 </div>
             </div></Link>
        </div>
-       <div className={styles.cards_flex2}> 
-       <Link href="/session-pack"><div className={styles.card_item2}>
-                <div className={styles.special_offer_marquee}>
-                    <div className={styles.marquee_inner}>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                        <span>Пакет сессий&nbsp;&nbsp;&nbsp;</span>
-                    </div>
-                </div>
-                <div className={styles.cards_img2}>
-                    <Image className={styles.img2} alt='card' src="/assets/images/individual.jpg" width={482} height={482}/>
-                </div>
-                <div className={styles.cards_content2}>
-                    <p style={{textAlign: "left"}}>Вы можете приобрести пакет из 10 сессий по сниженной стоимости<br/><br/>
-Запросы: <br/>
-• Про отношения.<br/>
-• Про самореализацию.<br/>
-• Разочарование/кризис.
-                    </p>
-                </div>
-            </div></Link>
-       </div>
     </div>
   );
 }

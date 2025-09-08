@@ -23,9 +23,9 @@ export default function Individual() {
 Конечная цель психотерапевтического процесса для Вас – научиться самостоятельно адаптироваться к новым обстоятельствам, даже если они критические (утрата, развод, различные кризисы).
 
 «Спасибо, дальше я сам/сама» - лучшее завершение нашей с Вами работы.<br/>
-Стоимость 6000р за встречу (60 минут).</p>
+Стоимость 10 000р</p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=kQyJwUfGqkqmAHFNTd90qQ"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=VilfShzp1EaI-rc7jvBYIw\"  />
         </div>
                     </div>
                 </div>

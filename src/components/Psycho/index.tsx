@@ -54,19 +54,10 @@ export default function Psycho() {
             </div></Link>
        </div>
        <div id='cards' className={styles.cards_flex1}>
-                <Link href="/forBeginners"><div className={styles.card_item3}>
-                <div className={styles.cards_img4}>
-                    <Image className={styles.img4} alt='card' src="/assets/images/forBeginners.jpg" width={376} height={256}/>
-                </div>
-                <div className={styles.cards_content4}>
-                    <p>Супервизорская группа для начинающих психологов
-                    </p>
-                </div>
-            </div></Link>
 
             <Link href="/longGroup"><div className={styles.card_item4}>
                 <div className={styles.cards_img5}>
-                    <Image className={styles.img5} alt='card' src="/assets/images/longGroup.jpg" width={376} height={256}/>
+                    <Image className={styles.img5} alt='card' src="/assets/images/longGroup.png" width={376} height={256}/>
                 </div>
                 <div className={styles.cards_content5}>
                     <p>Онлайн группа пролонгированная (больше года)

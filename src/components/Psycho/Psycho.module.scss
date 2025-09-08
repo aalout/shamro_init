@@ -16,6 +16,11 @@
     }
 }
 
+.img5 {
+    width: 100%;
+    height: auto;
+}
+
 .cards_flex {
     display: flex;
     justify-content: center;
@@ -39,6 +44,12 @@
     border-radius: 12px;
     transition: opacity 0.5s ease-in-out;
     position: relative;
+}
+
+.cards_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card_item1 {
@@ -79,6 +90,7 @@
     background-color: rgba(30, 63, 68, 1);
     border-radius: 12px;
     position: relative;
+    display: flex;
 }
 
 
@@ -262,11 +274,6 @@
     }
 
     .img4 {
-        width: 294px;
-        height: 200px;
-    }
-
-    .img5 {
         width: 294px;
         height: 200px;
     }

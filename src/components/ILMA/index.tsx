@@ -20,18 +20,16 @@ export default function ILMA() {
               <br/>
               9 месяцев выбраны тоже не случайно. Естественный цикл для появления новой жизни.<br/>
               <br/>
-              • Старт групп 3 и 5 сентября 2024г.<br/>
+              • Старт 3 сентября 2025г <br/>
               • Группы не более 12 человек.<br/>
               • Встречи в zoom еженедельно<br/>
               • Длительность 2 часа.<br/>
               <br/>
-              Стоимость 2500р за встречу (2 часа). <br/><br/>
-              Вы можете выбрать удобный для Вас день и время группы:<br/><br/>
-              ⏰По вторникам, начало 03.09.2024 в 19:00 (мск);<br/><br/>
-              ⏰По четвергам, начало 05.09.2024 в 19:00 (мск);
+              Стоимость 3000р за встречу (2 часа). <br/><br/>
+              ⏰ По средам с 19.00 до 21.00 <br/><br/>
             </p>
             <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=dpsg4dpTdUGO54GhW3yNOw"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=Fhk3uvzxB02eZ65-YvjgzQ\"  />
         </div>
           </div>
         </div>

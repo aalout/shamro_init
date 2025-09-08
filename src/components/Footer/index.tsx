@@ -15,6 +15,7 @@ export default function Footer() {
           <Link href="https://vk.com/andreyshamro" target='_blank'><p className={styles.footer_nav}>ВКонтакте</p></Link>
           <Link href="https://vk.com/supervizor_andrey" target='_blank'><p className={styles.footer_nav}>ВК для психологов</p></Link>
             <Link href="https://t.me/andrey_shamro" target='_blank'><p className={styles.footer_nav}>Telegram для связи</p></Link>
+            <Link href="https://t.me/mudrec_na_kushetke" target='_blank'><p className={styles.footer_nav}>Телеграм канал «Мудрец на кушетке»</p></Link>
             <Link href="https://www.youtube.com/@andreyshamro" target='_blank'><p className={styles.footer_nav}>Youtube</p></Link>
           </div>
         </div>

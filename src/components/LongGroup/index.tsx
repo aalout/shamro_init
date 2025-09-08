@@ -10,7 +10,7 @@ export default function LongGroup() {
         <div>
             <div className={styles.main_con}>
                 <div className={styles.flex}>
-                    <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/longGroup.jpg" height={256} width={376}/></div>
+                    <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/longGroup.png" height={256} width={376}/></div>
                     <div className={styles.text}>
                         <h2>Психологические онлайн-группы</h2>
                         <p>Онлайн группа пролонгированная (больше года) <br/> 2т.р. за встречу</p>
