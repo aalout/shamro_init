@@ -72,7 +72,7 @@ export default function Banner() {
             
 
             <div>
-                <Image className={styles.banner_img} alt='banner' src="/assets/images/banner.png" width={770} height={950}/>
+                <Image className={styles.banner_img} alt='banner' src="/assets/images/banner.png" width={632} height={950}/>
             </div>
         </div>
     </div>

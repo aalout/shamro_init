@@ -33,6 +33,20 @@
     }
 }
 
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    
+    a {
+        font-family: "Rubik medium";
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+}
+
 .card {
     display: flex;
     flex-direction: column;
