@@ -11,7 +11,7 @@ export const OnlineProject: React.FC = () => {
     return (
         <section className={styles.root}>
             <h2 className={styles.title}>Проекты</h2>
-            <Link href='/connect' className={styles.container}>
+            <Link href='/at-the-turn-of-the-century' className={styles.container}>
                 <div className={styles.hover}>
                     <p className={styles.text}>Проект «На рубеже». Исследовательская работа о переходах и внутренних переменах</p>
                     <Image className={styles.arrow} src={Arrow} alt="arrow" width={30} height={30} />

@@ -1,19 +1,28 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "./OnlineProjectPage.module.scss";
 import RobokassaPay from "../RobokassaPay";
 import ConnectImg from "../OnlineProject/images/connect.jpg";
-import Arrow from "./images/arrow.svg";
+
+const paymentOptions = [
+  {
+    id: "individual",
+    title: "Индивидуальная сессия 4000 руб.",
+    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=b9QdKD1_jEKXUv6mXAGn2A",
+  },
+  {
+    id: "group",
+    title: "Участие в группе 2000 руб.",
+    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=COqGgKnewkqNA5nVdVCUoA",
+  },
+] as const;
 
 export default function Connect() {
-  const [isActive, setIsActive] = useState(false);
-
-  const handleCardClick = () => {
-    setIsActive(!isActive);
-  };
+  const [activePayment, setActivePayment] = useState<
+    (typeof paymentOptions)[number]["id"] | null
+  >(null);
 
   return (
     <div>
@@ -65,29 +74,35 @@ export default function Connect() {
 Для участия в исследовании необходимо ознакомиться с этим важным документом.
             </p>
             <div className={styles.link}><Image src="/assets/pdf/download.svg" alt='download' width={34} height={33}/><a href="/assets/pdf/rubezh.pdf" download="rubezh.pdf">Условия участия в проекте НА РУБЕЖЕ (PDF)</a></div>
-            <div className={styles.cards}>
-              <div
-                className={`${styles.card} ${isActive ? styles.active : ""}`}
-                onClick={handleCardClick}
-              >
-                <p>Участие в группе чтения 1000 р.</p>
-                <Image
-                  className={styles.arrow}
-                  src={Arrow}
-                  alt="arrow"
-                  width={20}
-                  height={20}
-                />
-                {isActive && (
+            <div className={styles.paymentCards}>
+              {paymentOptions.map((payment) => {
+                const isActive = activePayment === payment.id;
+
+                return (
                   <div
-                    className={`${styles.cardDetail} ${
-                      isActive ? styles.active : ""
+                    className={`${styles.paymentCard} ${
+                      isActive ? styles.paymentCardActive : ""
                     }`}
+                    key={payment.id}
                   >
-                    <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=b9QdKD1_jEKXUv6mXAGn2A\" />
+                    <button
+                      className={styles.paymentButton}
+                      type="button"
+                      aria-expanded={isActive}
+                      onClick={() =>
+                        setActivePayment(isActive ? null : payment.id)
+                      }
+                    >
+                      {payment.title}
+                    </button>
+                    <div className={styles.paymentWidget}>
+                      <div className={styles.paymentWidgetInner}>
+                        <RobokassaPay src={payment.src} />
+                      </div>
+                    </div>
                   </div>
-                )}
-              </div>
+                );
+              })}
             </div>
           </div>
         </div>
