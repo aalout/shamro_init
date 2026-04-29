@@ -9,7 +9,7 @@ export default function ILMA() {
     <div>
       <div className={styles.main_con}>
         <div className={styles.flex}>
-          <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/lovemoney.png" height={482} width={482}/></div>
+          <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/new/lovemoney.png" height={482} width={482}/></div>
           <div className={styles.text}>
             <h2>Онлайн группа «Я, Любовь, деньги и тревога»</h2>
             <p>9-ти месячный проект в формате групповой работы. Все важные запросы собраны в одном пространстве:<br/>
@@ -20,12 +20,12 @@ export default function ILMA() {
               <br/>
               9 месяцев выбраны тоже не случайно. Естественный цикл для появления новой жизни.<br/>
               <br/>
-              • Старт 3 сентября 2025г <br/>
-              • Группы не более 12 человек.<br/>
-              • Встречи в zoom еженедельно<br/>
-              • Длительность 2 часа.<br/>
+              • Старт 23 сентября 2026г<br/>
+              • Группы не более 8 человек<br/>
+              • Онлайн сессии еженедельно<br/>
+              • Длительность 2 часа<br/>
               <br/>
-              Стоимость 3000р за встречу (2 часа). <br/><br/>
+              Стоимость 3000 руб за встречу (2 часа). <br/><br/>
               ⏰ По средам с 19.00 до 21.00 <br/><br/>
             </p>
             <div className={styles.payment}>

@@ -10,27 +10,20 @@ export default function Online() {
         <div>
             <div className={styles.main_con}>
                 <div className={styles.flex}>
-                    <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/online.png" height={482} width={482}/></div>
+                    <div className={styles.image}><Image className={styles.imggg} alt='individual' src="/assets/images/new/online.png" height={482} width={482}/></div>
                     <div className={styles.text}>
-                        <h2>Ведение онлайн-групп</h2>
-                        <p>Компетенции психотерапевта растут в практике с опорой на теорию. Именно поэтому в курсе есть обе части:<br/><br/>
-1. Практическая – работа в малой группе (не более 12-ти участников)<br/>
-2. Теоретическая – лекции, таблицы и пр. информационные материалы.<br/><br/>
+                    <h2>Групповая супервизия</h2>
+                        <p>Приветствую, коллеги!<br /><br />
+Я веду супервизорские группы с 2021 года. За это время четко сформировалось мое понимание: главный вызов в нашей профессии – не просто освоить техники, а обрести  адекватную профессиональную идентичность (ПИ),<br />
+Я уверен, что именно ГРУППОВАЯ Супервизия лучше всего формирует ПИ психолога.<br /><br />
 
-Длительность – 4 месяца.<br/><br/>
+Группа В ТЕМЕ – это лаборатория идей и решений. Эксперты и ведущие групп (7+ лет практики)<br /><br />
 
-Формат – групповые встречи в zoom по 2 часа, раз в неделю (количество участников группы не более 12-ти человек) + Раз в неделю лекции в свободном доступе (слушаете и изучаете в удобное время)<br/>
-16 встреч + 16 лекций<br/><br/>
+Стоимость 2000 руб за встречу (2 часа).
 
-Старт курса 4 сентября 2025г. <br/>
- 
-*По четвергам в 16.00- 18.00<br/><br/>
-
-Стоимость – 3000р за встречу (2 часа)<br/>
-Пропуски тоже оплачиваются, так как будет доступ к записи очередной встречи.
 </p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=IOynv7nKG02REmZu2NdKvQ"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=axcG8DPI2UeILL_VF-KHNg\"  />
         </div>
                     </div>
                 </div>

@@ -13,10 +13,11 @@ export default function Footer() {
 
           <div className={styles.footer_n}>
           <Link href="https://vk.com/andreyshamro" target='_blank'><p className={styles.footer_nav}>ВКонтакте</p></Link>
-          <Link href="https://vk.com/supervizor_andrey" target='_blank'><p className={styles.footer_nav}>ВК для психологов</p></Link>
+          <Link href="https://max.ru/u/f9LHodD0cOIMviaBgXMRW6wrojQQjQQk3ZlOchSw8GJLya0ApUTWtefmqks" target='_blank'><p className={styles.footer_nav}>MAX для связи</p></Link>
             <Link href="https://t.me/andrey_shamro" target='_blank'><p className={styles.footer_nav}>Telegram для связи</p></Link>
-            <Link href="https://t.me/mudrec_na_kushetke" target='_blank'><p className={styles.footer_nav}>Телеграм канал «Мудрец на кушетке»</p></Link>
-            <Link href="https://www.youtube.com/@andreyshamro" target='_blank'><p className={styles.footer_nav}>Youtube</p></Link>
+            <Link href="https://max.ru/id231509891349_biz" target='_blank'><p className={styles.footer_nav}>MAX канал для психологов</p></Link>
+            <Link href="https://rutube.ru/u/sredasvoim/" target='_blank'><p className={styles.footer_nav}>Rutube</p></Link>
+            <Link href="https://www.b17.ru/shamro_andrey/?prt=316752" target='_blank'><p className={styles.footer_nav}>B17</p></Link>
           </div>
         </div>
         <div className={styles.commerce}>

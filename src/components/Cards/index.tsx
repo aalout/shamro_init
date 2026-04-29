@@ -18,7 +18,7 @@ export default function Cards() {
         <div className={styles.cards_flex}>
             <Link href="/individual"><div className={styles.card_item1}>
                 <div className={styles.cards_img1}>
-                    <Image className={styles.img1} alt='card' src="/assets/images/individual.jpg" width={482} height={482}/>
+                    <Image className={styles.img1} alt='card' src="/assets/images/new/individual.png" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content1}>
                     <p>Конечная цель процесса для Вас – научиться самостоятельно адаптироваться к новым обстоятельствам, даже если они критические (утрата, развод, различные кризисы).</p>
@@ -26,7 +26,7 @@ export default function Cards() {
             </div></Link>
             <Link href="/love_money_anxiety"><div className={styles.card_item2}>
                 <div className={styles.cards_img2}>
-                    <Image className={styles.img2} alt='card' src="/assets/images/lovemoney.png" width={482} height={482}/>
+                    <Image className={styles.img2} alt='card' src="/assets/images/new/lovemoney.png" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content2}>
                     <p>Групповая психологическая работа сфокусирована на решении эмоциональных, поведенческих и межличностных проблем при помощи групповой динамики – доверительного социального общения.
