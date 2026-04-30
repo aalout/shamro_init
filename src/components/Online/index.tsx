@@ -23,7 +23,7 @@ export default function Online() {
 
 </p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=axcG8DPI2UeILL_VF-KHNg\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=sZOfnwj2_UqZculc2qwYqg\"  />
         </div>
                     </div>
                 </div>

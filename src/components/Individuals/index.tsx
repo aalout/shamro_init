@@ -25,7 +25,7 @@ export default function Individual() {
 «Спасибо, дальше я сам/сама» - лучшее завершение нашей с Вами работы.<br/>
 Стоимость 6000 руб</p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=T0e_IAKSxUOftGaX9HFR4Q\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=IIufH5AqK0yhyMrZ92jXSw\"  />
         </div>
                     </div>
                 </div>

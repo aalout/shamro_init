@@ -20,7 +20,7 @@ export default function IndividualSup() {
 Длительность 60 минут. Стоимость 5000 руб 
 </p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=tsiti2MgLUmyFvC_znztQw"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=0DJGbhms2EOzqxrFP4FzKw\"  />
         </div>
                     </div>
                 </div>

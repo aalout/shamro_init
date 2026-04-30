@@ -28,7 +28,7 @@ export default function GroupSuper() {
 
 </p>
 <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=4Dn5dX0VW0aIaJ0XJOVEXg\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=t9oSUuDjukGX8bmgClfSaw\"  />
         </div>
                     </div>
                 </div>

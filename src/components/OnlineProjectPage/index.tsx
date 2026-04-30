@@ -10,12 +10,12 @@ const paymentOptions = [
   {
     id: "individual",
     title: "Индивидуальная сессия 4000 руб.",
-    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=0ijWmbfVS0uMTmBc85hUsA",
+    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=3E4Dle-jo0uzl0CAdk1HHg",
   },
   {
     id: "group",
     title: "Участие в группе 2000 руб.",
-    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=mZahCbnWZUmrwcmPSfpNuw",
+    src: "https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=E5fho7TOzkmi8-I51Ni_dw",
   },
 ] as const;
 

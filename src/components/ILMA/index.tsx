@@ -29,7 +29,7 @@ export default function ILMA() {
               ⏰ По средам с 19.00 до 21.00 <br/><br/>
             </p>
             <div className={styles.payment}>
-          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=Fhk3uvzxB02eZ65-YvjgzQ\"  />
+          <RobokassaPay src="https://auth.robokassa.ru/Merchant/PaymentForm/FormSS.if?EncodedInvoiceId=Ofy0SO2poUWLPR6gPS1sYg\"  />
         </div>
           </div>
         </div>
