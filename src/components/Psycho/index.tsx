@@ -36,7 +36,8 @@ export default function Psycho() {
                     <Image className={styles.img1} alt='card' src="/assets/images/new/sup.png" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content1}>
-                    <p>Не просто освоить техники, а обрести  адекватную профессиональную идентичность
+                    <p>
+                    Годовая программа в формате групповой онлайн супервизии
                     </p>
                 </div>
             </div></Link>
@@ -45,9 +46,7 @@ export default function Psycho() {
                     <Image className={styles.img2} alt='card' src="/assets/images/new/online.png" width={482} height={482}/>
                 </div>
                 <div className={styles.cards_content2}>
-                    <p>Годовая программа в формате групповой онлайн супервизии
-
-
+                    <p>Не просто освоить техники, а обрести адекватную профессиональную идентичность
                     </p>
                 </div>
             </div></Link>

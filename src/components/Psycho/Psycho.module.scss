@@ -5,6 +5,10 @@
     padding-top: 20px;
     padding-bottom: 150px;
 
+    @media (max-width: 800px) {
+        padding-bottom: 0;
+    }
+
     h2 {
         font-family: "Rubik bold";
         font-size: 40px;
@@ -306,9 +310,6 @@
         height: 300px;
     }
 
-    .cards {
-        height: 2100px;
-    }
 
     .cards_flex {
         display: contents;
